@@ -1,0 +1,66 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html><head>
+<title>Ninux Rate Meter</title>
+</head><body>
+<table style="width: 800px; background-image: url(sfondi/nuvole.jpg);" align="center" background="&#8221;nuvole.jpg&#8221;" cellpadding="0" cellspacing="0">
+
+  <tbody>
+    <tr>
+<!-- <td colspan="2" style="background-color:LightGreen;text-align:center;">-->
+      <td colspan="2" style="text-align: center;"><img src="logo_ninux-fi.png" style="">
+      <h1 style="color: rgb(150, 150, 0);">Ninux Rate Meter</h1>
+      <h2 style="color: rgb(150, 150, 0);">N<sub><small>x</small></sub>RM</h2>
+      </td>
+    </tr>
+    <tr>
+      <td style="background-color: rgb(255, 165, 0); width: 100px; text-align: center; color: rgb(249, 57, 6);">
+      <b style="color: black;">Menu</b>
+      <hr>
+      <form name="input" action="demo_form_action.asp" method="get"><input value="Home" type="submit">
+      </form>
+      <form name="input" action="demo_form_action.asp" method="get">
+        <input value="Registra un Nodo" type="submit"></form>
+      <form name="input" action="demo_form_action.asp" method="get">
+        <input value="Tabelle" type="submit"></form>
+      <form name="input" action="demo_form_action.asp" method="get">
+        <input value="Grafici" type="submit"></form>
+      </td>
+      <td style="background-color: rgb(238, 238, 238); height: 200px; width: 700px; vertical-align: top; color: rgb(249, 57, 6);">
+      <form style="text-align: center;" name="input" action="demo_form_action.asp" method="get">
+        <h3>Registrazione Nodo</h3>
+        <hr>
+        <h4 style="text-align: left;">Identita' del Nodo</h4>
+        <br>
+        <br><span style="color: black;">
+&nbsp;&nbsp;Nome del Nodo:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><input style="color: black;" name="nomenodo" value="" type="text"><br style="color: black;">
+        <br style="color: black;"><span style="color: black;">
+&nbsp;&nbsp;IP Antenna WiFi:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><input style="color: black;" name="ipwifi" value="" type="text"><br style="color: black;">
+        <br style="color: black;"><span style="color: black;">
+&nbsp;&nbsp;IP di Manutenzione&nbsp;</span> <input name="ipman=" indirizzo="" ip="" della="" wifi="" value="" type="text"><br>
+        <br>
+        <input value="Registra" type="submit">
+        <hr>
+        <h4 style="text-align: left;">Servizi Offerti dal Nodo</h4>
+        <br>
+        <br><span style="color: black;">
+Descrizione:&nbsp;&nbsp;&nbsp;&nbsp;</span><input style="color: black;" name="descrizione" value="" type="text"><br style="color: black;">
+        <br style="color: black;"><span style="color: black;">
+Indirizzo IP:&nbsp;&nbsp;&nbsp;&nbsp;</span><input style="color: black;" name="ipservizio" value="" type="text"><br style="color: black;">
+        <br style="color: black;"><span style="color: black;">
+Porta:&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>&nbsp;<input name="porta=" indirizzo="" ip="" della="" wifi="" value="" type="text"><br>
+        <br>
+        <input value="Aggiungi" type="submit">
+      </form>
+      <br>
+      <br>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" style="background-color: rgb(255, 165, 0); text-align: center;">
+GPL Ninux_Rate_Meter (N<sub>x</sub>RM)</td>
+    </tr>
+  </tbody>
+</table>
+
+</body></html>
